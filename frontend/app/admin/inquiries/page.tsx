@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import AdminLayout from '@/components/admin/AdminLayout'
+import AdminLayout from '../../../components/admin/AdminLayout'
 import { Search, Filter, Download, Eye, Edit2, Trash2 } from 'lucide-react'
 import axios from 'axios'
 import toast from 'react-hot-toast'
