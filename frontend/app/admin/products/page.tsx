@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import AdminLayout from '@/components/admin/AdminLayout'
+import AdminLayout from '../../../components/admin/AdminLayout'
 import { Plus, Edit2, Trash2, Eye, EyeOff, Star } from 'lucide-react'
 import toast from 'react-hot-toast'
 
