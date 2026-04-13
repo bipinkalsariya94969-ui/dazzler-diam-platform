@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import AdminLayout from '@/components/admin/AdminLayout'
+import AdminLayout from '../../../components/admin/AdminLayout'
 import { MessageSquare, Package, Calendar, Users, TrendingUp, Globe, Star, Clock } from 'lucide-react'
 import axios from 'axios'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
