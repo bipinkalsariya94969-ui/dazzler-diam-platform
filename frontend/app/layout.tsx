@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { Cormorant_Garamond, Montserrat, Raleway } from 'next/font/google'
 import '../styles/globals.css'
 import { Toaster } from 'react-hot-toast'
-import CustomCursor from '@/components/ui/CustomCursor'
-import SmoothScroll from '@/components/layout/SmoothScroll'
+import CustomCursor from '../components/ui/CustomCursor'
+import SmoothScroll from '../components/layout/SmoothScroll'
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
